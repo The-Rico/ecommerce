@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <div className='header'>
-      <div className='headerContent'>
+      <div className='headerContent flex flex-col md:flex-row'>
         <span className='logo'>audiophile</span>
-        <ul>
+        <ul className='flex flex-col md:flex-row'>
           <li>HOME</li>
           <li>HEADPHONES</li>
           <li>SPEAKERS</li>

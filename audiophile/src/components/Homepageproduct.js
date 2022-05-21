@@ -1,7 +1,7 @@
 export default function Homepageproduct() {
   return (
     <div className='homePageHeroContainer'>
-      <div className='homePageHeroContent'>
+      <div className='homePageHeroContent flex flex-col md:flex-row'>
         <div className='homeProductDescription'>
           <p className='heroNewProductParagraph'>NEW PRODUCT</p>
           <h1>XX99 MARK II HEADPHONES</h1>
