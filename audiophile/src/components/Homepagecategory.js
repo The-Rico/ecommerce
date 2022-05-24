@@ -10,6 +10,10 @@ export default function Homepagecategory() {
               src='./images//image-category-thumbnail-headphones.png'
             ></img>
           </div>
+          <p className='speakerCategoryText'>HEADPHONES</p>
+          <p className='productShopLink'>
+            SHOP<span>{'>'}</span>
+          </p>
         </div>
         <div className='speakersCategory'>
           <div className='speakersImage'>
@@ -19,9 +23,9 @@ export default function Homepagecategory() {
               src='./images//image-category-thumbnail-speakers.png'
             ></img>
           </div>
-          <p className='speakerCategoryText'>test</p>
+          <p className='speakerCategoryText'>SPEAKERS</p>
           <p className='productShopLink'>
-            Shop<span>></span>
+            SHOP<span>{'>'}</span>
           </p>
         </div>
         <div className='earphonesCategory'>
@@ -32,6 +36,10 @@ export default function Homepagecategory() {
               src='./images//image-category-thumbnail-earphones.png'
             ></img>
           </div>
+          <p className='speakerCategoryText'>EARPHONES</p>
+          <p className='productShopLink'>
+            SHOP<span>{'>'}</span>
+          </p>
         </div>
       </div>
     </div>

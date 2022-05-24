@@ -2,6 +2,7 @@ import './index.css';
 import Header from './components/Header';
 import Homepageproduct from './components/Homepageproduct';
 import Homepagecategory from './components/Homepagecategory';
+import Firstproductfeature from './components/Firstproductfeature';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Homepageproduct />
       <Homepagecategory />
+      <Firstproductfeature />
     </div>
   );
 }
