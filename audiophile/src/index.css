@@ -79,7 +79,7 @@ h1 {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 5vh;
   line-height: 58px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -249,4 +249,57 @@ h1 {
   position: absolute;
   left: 40px;
   bottom: 2px;
+}
+
+/* Start of homepage product features */
+
+.zx9FeatureContainer {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.zx9Feature {
+  background-color: var(--dark-orange);
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  padding: 17px;
+  height: 40vw;
+  max-height: 40vw;
+  position: relative;
+}
+.zx9HomeImage {
+  position: absolute;
+  top: 13vw;
+  left: 10%;
+  height: 30vw;
+}
+.zx9SpiralImage {
+  position: absolute;
+  top: -2vh;
+  right: 33vw;
+  height: 60vw;
+}
+.zx9FeatureText {
+  object-fit: contain;
+
+  position: relative;
+  margin-left: 50%;
+  margin-top: 20%;
+}
+.zx9ProductButton {
+  object-fit: contain;
+
+  position: relative;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  height: 48px;
+  width: 160px;
+  border-radius: 0px;
 }
