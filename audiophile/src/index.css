@@ -148,15 +148,11 @@ h1 {
   width: 160px;
   border-radius: 0px;
 }
-/* Start of home page category section */
+/* Start of home page category section  RESPONSIVE FOR LARGE DEVICES*/
 @media only screen and (min-width: 768px) {
   .homePageCategoryContainer {
     background-color: var(--light-white);
     color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -164,61 +160,51 @@ h1 {
     width: 80%;
     display: flex;
     gap: 20px;
-    justify-content: space-evenly;
     margin: auto;
-
-    margin-top: 10rem;
+    margin-top: 12rem;
     margin-bottom: 10rem;
   }
   /* headphones category title */
   .headphonesCategory {
     background-color: var(--dark-white);
     position: relative;
-
     width: 100%;
-    height: 180px;
+    height: 15vw;
     border-radius: 8px;
   }
   .headphonesImage {
-    width: 250px; /* width of container */
-    height: 250px; /* height of container */
-    object-fit: cover;
-    float: left;
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
+    width: 22vw;
+    height: auto;
+    position: relative;
+    left: 2vw;
+    bottom: 10vw;
   }
   /* speakers category title */
   .speakersCategory {
     background-color: var(--dark-white);
     position: relative;
     width: 100%;
-    height: 180px;
+    height: 15vw;
     border-radius: 8px;
   }
   .speakerCategoryText {
     position: absolute;
-    height: 25px;
     left: 31%;
     right: 31%;
-    top: 100px;
+    top: 10vw;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
+    font-size: 1.5vw;
     letter-spacing: 1.28571px;
     text-transform: uppercase;
     color: #000000;
   }
   .productShopLink {
     position: absolute;
-    height: 25px;
     left: 44%;
     right: 44%;
-    top: 130px;
+    top: 13vw;
     font-weight: 700;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 1vw;
     letter-spacing: 1px;
     text-transform: uppercase;
     mix-blend-mode: normal;
@@ -226,53 +212,27 @@ h1 {
     color: #000000;
   }
   .speakersImage {
-    width: 250px; /* width of container */
-    height: 250px; /* height of container */
-    object-fit: cover;
-    float: left;
-    position: absolute;
-    left: 40px;
-    bottom: 25px;
+    width: 22vw;
+    height: auto;
+    position: relative;
+    left: 2vw;
+    bottom: 10vw;
   }
   /* earphones category title */
   .earphonesCategory {
     background-color: var(--dark-white);
     position: relative;
     width: 100%;
-    height: 180px;
+    height: 15vw;
     border-radius: 8px;
   }
   .earphonesImage {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    float: left;
-    position: absolute;
-    left: 40px;
-    bottom: 2px;
+    width: 22vw;
+    height: auto;
+    position: relative;
+    left: 2vw;
+    bottom: 8vw;
   }
-}
-
-/* Start of homepage product features */
-
-.zx9FeatureContainer {
-  color: white;
-  padding-bottom: 30px;
-}
-
-.zx9ProductButton {
-  position: relative;
-  background-color: black;
-  color: white;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  height: 48px;
-  width: 160px;
-  border-radius: 0px;
 }
 
 /* RESPONSIVENESS OF HOMEPAGE CATEGORY content */
@@ -362,6 +322,25 @@ h1 {
 
 /* Start of homepage product features */
 
+.zx9FeatureContainer {
+  color: white;
+  padding-bottom: 30px;
+}
+
+.zx9ProductButton {
+  position: relative;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  height: 48px;
+  width: 160px;
+  border-radius: 0px;
+}
 .zx9FeatureContainer {
   color: white;
   padding-bottom: 30px;
