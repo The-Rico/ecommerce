@@ -73,7 +73,7 @@ ul > li {
   font-size: 20px;
 }
 
-/* Homepage top content  */
+/* Homepage Hero content  */
 
 h1 {
   font-family: 'Manrope';
@@ -165,7 +165,7 @@ h1 {
   gap: 20px;
   justify-content: space-evenly;
   margin: auto;
-  padding: 17px;
+
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
@@ -174,7 +174,7 @@ h1 {
   background-color: var(--dark-white);
   position: relative;
 
-  width: 330px;
+  width: 100%;
   height: 180px;
   border-radius: 8px;
 }
@@ -191,7 +191,7 @@ h1 {
 .speakersCategory {
   background-color: var(--dark-white);
   position: relative;
-  width: 330px;
+  width: 100%;
   height: 180px;
   border-radius: 8px;
 }
@@ -237,7 +237,7 @@ h1 {
 .earphonesCategory {
   background-color: var(--dark-white);
   position: relative;
-  width: 330px;
+  width: 100%;
   height: 180px;
   border-radius: 8px;
 }
@@ -255,41 +255,10 @@ h1 {
 
 .zx9FeatureContainer {
   color: white;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-bottom: 30px;
 }
-.zx9Feature {
-  background-color: var(--dark-orange);
-  border-radius: 5px;
-  width: 80%;
-  margin: auto;
-  padding: 17px;
-  height: 40vw;
-  max-height: 40vw;
-  position: relative;
-}
-.zx9HomeImage {
-  position: absolute;
-  top: 13vw;
-  left: 10%;
-  height: 30vw;
-}
-.zx9SpiralImage {
-  position: absolute;
-  top: -2vh;
-  right: 33vw;
-  height: 60vw;
-}
-.zx9FeatureText {
-  object-fit: contain;
 
-  position: relative;
-  margin-left: 50%;
-  margin-top: 20%;
-}
 .zx9ProductButton {
-  object-fit: contain;
-
   position: relative;
   background-color: black;
   color: white;
@@ -302,4 +271,66 @@ h1 {
   height: 48px;
   width: 160px;
   border-radius: 0px;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .zx9Feature {
+    background-color: var(--dark-orange);
+    border-radius: 5px;
+    max-width: 80%;
+    margin: auto;
+    padding: 17px;
+    height: 40vw;
+    max-height: 40vw;
+    position: relative;
+  }
+  .zx9FeatureText {
+    overflow: hidden;
+    position: relative;
+    margin-left: 40vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+  .zx9HomeImage {
+    position: absolute;
+    top: 13vw;
+    left: 10%;
+    height: 30vw;
+  }
+  .zx9SpiralImage {
+    position: absolute;
+    top: -2vh;
+    right: 33vw;
+    height: 60vw;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+  .zx9Feature {
+    background-color: var(--dark-orange);
+    border-radius: 5px;
+    max-width: 80%;
+    margin: auto;
+    padding: 17px;
+    height: 100vw;
+    position: relative;
+  }
+  .zx9FeatureText {
+    overflow: hidden;
+    position: relative;
+    margin-left: 10vw;
+    margin-top: 45vw;
+  }
+  .zx9HomeImage {
+    position: absolute;
+    top: 5vw;
+    left: 25vw;
+    height: 30vw;
+  }
+  .zx9SpiralImage {
+    position: absolute;
+    top: -5vh;
+    right: 9vw;
+    height: 60vw;
+  }
 }

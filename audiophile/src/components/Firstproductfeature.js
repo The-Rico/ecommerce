@@ -12,7 +12,7 @@ export default function Firstproductfeature() {
           className='zx9HomeImage'
           src='./images/image-speaker-zx9.png'
         ></img>
-        <div className='zx9FeatureText'>
+        <div className='zx9FeatureText '>
           <h1>ZX9 SPEAKER</h1>
           <p className='heroProductInfo'>
             Upgrade to premium speakers that are phenomenally built to deliver
